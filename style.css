@@ -1,0 +1,58 @@
+body {
+    background-image: url("p.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+   padding: 0;
+   margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.p {
+  text-align: center;
+}
+.container {
+  height: 500px;
+  width: 100%;
+}
+.tempe {
+  height: auto;
+  justify-content: center;
+  width: auto;
+  color: black;
+  display: flex;
+}
+.card {
+  border: 5px solid lawngreen;
+  background-color: black;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0 , 0.5);
+}
+.icon {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 24px;
+  color: red;
+}
+.head {
+  font-size: 2m;
+}
+.pa {
+  font-size: 1,2m;
+}
+.btn {
+  margin-top: 16px;
+  background-color: aqua;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+.btn:hover {
+  background-color: blue;
+  color: white;
+  -ms-transform: rolate(2dg);
+  transform: rotate('2deg');
+}
